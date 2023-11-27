@@ -7,6 +7,7 @@ public class Henger {
     public Henger(double sugar, double magassag) {
         this.sugar = sugar;
         this.magassag = magassag;
+        hengerDb++;
     }
 
     public static int getHengerDb() {

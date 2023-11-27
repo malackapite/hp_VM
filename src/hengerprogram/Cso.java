@@ -24,7 +24,7 @@ public class Cso extends TomorHenger{
 
     @Override
     public double terfogat() {
-        return 0;
+        return super.terfogat()-(Math.pow(getSugar()-falvastagsag,2)*Math.PI*getMagassag());
     }
     
     
