@@ -31,6 +31,6 @@ public class HengerProgram {
     }
     
     public static void main(String[] args) {
-        
+        new HengerProgram().run();
     }
 }
